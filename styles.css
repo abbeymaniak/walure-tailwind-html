@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footers {
+  @apply grid px-5 xl:px-36 2xl:px-72  pt-20 relative;
+}
+
+.footer-content {
+  @apply relative lg:flex justify-between grid gap-y-10;
+}
+
+.footer-info {
+  @apply grid content-start;
+}
+
+.info {
+  @apply grid lg:w-[40%];
+}
+
+.footer-text {
+  @apply text-base font-medium;
+}
+
+.socials {
+  @apply grid content-start mt-6 lg:mt-16;
+}
+
+.socials-cta {
+  @apply text-gray-500 text-sm font-semibold leading-[18px];
+}
+
+.socials-icon {
+  @apply flex items-center text-[#667085] mt-4 gap-5;
+}
+
+.country {
+  @apply flex gap-5 items-center mt-5 lg:mt-[60px];
+}
+
+.social-icon {
+  @apply transform ease-in-out duration-300 hover:scale-105 w-12;
+}
+
+.contact {
+  @apply grid content-start;
+}
+
+.footer-title {
+  @apply text-2xl leading-6 font-semibold;
+}
+
+.copyright {
+  @apply flex justify-center w-full mt-16 lg:mt-[110px] 2xl:mt-[187px];
+}
+
+.copyright-text {
+  @apply text-sm leading-6 font-medium text-gray-500 text-center pb-12 xl:pb-36;
+}
+
+.socials-icon,
+.contact-info,
+.links_image,
+.logo {
+  @apply cursor-pointer;
+}
+
+.menu-item,
+.contact-info {
+  @apply text-[#667085] hover:text-purple-500 transition-all duration-300 ease-in;
+}
+
+.phone {
+  @apply text-[#667085] mt-2;
+}
+
+.menu {
+  @apply text-[#667085];
+}
+
+.contact-info {
+  @apply mt-[14px] w-4/5;
+}
+
+.menu,
+.menu-item,
+.contact-info,
+.phone {
+  @apply text-sm font-medium leading-[22px];
+}
