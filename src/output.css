@@ -1067,6 +1067,14 @@ video {
   height: 100%;
 }
 
+.h-\[15rem\] {
+  height: 15rem;
+}
+
+.h-\[12rem\] {
+  height: 12rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -4250,8 +4258,68 @@ video {
     width: 40rem;
   }
 
+  .mac\:w-full {
+    width: 100%;
+  }
+
+  .mac\:w-\[35rem\] {
+    width: 35rem;
+  }
+
+  .mac\:w-\[25rem\] {
+    width: 25rem;
+  }
+
+  .mac\:w-\[29rem\] {
+    width: 29rem;
+  }
+
+  .mac\:w-\[27rem\] {
+    width: 27rem;
+  }
+
+  .mac\:w-\[30rem\] {
+    width: 30rem;
+  }
+
+  .mac\:w-\[29\.5rem\] {
+    width: 29.5rem;
+  }
+
+  .mac\:w-\[28\.5rem\] {
+    width: 28.5rem;
+  }
+
+  .mac\:w-\[28\.7rem\] {
+    width: 28.7rem;
+  }
+
+  .mac\:w-\[30\.7rem\] {
+    width: 30.7rem;
+  }
+
+  .mac\:w-\[29\.7rem\] {
+    width: 29.7rem;
+  }
+
+  .mac\:w-\[30\.5rem\] {
+    width: 30.5rem;
+  }
+
+  .mac\:w-\[30\.9rem\] {
+    width: 30.9rem;
+  }
+
+  .mac\:w-\[31\.5rem\] {
+    width: 31.5rem;
+  }
+
   .mac\:max-w-screen-xl {
     max-width: 1280px;
+  }
+
+  .mac\:max-w-screen-lg {
+    max-width: 1024px;
   }
 
   .mac\:px-\[9\.38rem\] {
