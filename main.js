@@ -21,3 +21,30 @@ document.addEventListener("DOMContentLoaded", function () {
     dropdownContent.classList.toggle("hidden");
   });
 });
+
+// Carousel
+let currentIndex = 0;
+
+function showSlide(index) {
+  const carouselContent = document.getElementById("carouselContent");
+  const slideWidth = document.querySelector(".carousel-item").offsetWidth;
+
+  currentIndex = index;
+
+  const transformValue = -currentIndex * slideWidth;
+  carouselContent.style.transform = `translateX(${transformValue}px)`;
+}
+
+function prevSlide() {
+  currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+  showSlide(currentIndex);
+}
+
+function nextSlide() {
+  currentIndex = (currentIndex + 1) % slideCount;
+  showSlide(currentIndex);
+}
+
+const slideCount = document.querySelectorAll(".carousel-item").length;
+
+showSlide(currentIndex);

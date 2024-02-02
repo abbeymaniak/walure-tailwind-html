@@ -291,75 +291,144 @@
       </nav>
 
       <header class="relative h-full">
-        <div>
-          <img
-            src="./img/Group.png"
-            alt=""
-            class="w-full h-[500px] md:h-[25.375rem] lg:h-[31.75rem]"
-          />
-          <div
-            class="xl:max-w-screen-xl w-[21rem] md:w-[40rem] lg:w-[56rem] xl:w-[71rem] mx-auto"
-          >
-            <button
-              class="text-white absolute top-10 left-7 md:top-12 lg:top-20 md:left-24 lg:left-32 xl:left-44 bg-[#CB94C7] rounded-md px-3 py-[2px] text-xs md:px-5 md:py-1 md:text-[0.875rem] font-medium leading-[2.5rem] tracking-[0.02625rem]"
-            >
-              Popular
-            </button>
-            <h1
-              class="text-white text-[1.5rem] px-4 sm:px-0 pro:text-[1.3rem] leading-[1.89363rem] md:leading-normal absolute top-28 left-4 lg:top-40 md:top-28 md:left-24 xl:left-44 md:text-[1.15rem] lg:left-32 font-semibold lg:text-[2rem] lg:leading-[2.5rem] xl:leading-[2.8rem] xl:text-[2.2rem] mac:text-[2.5rem]"
-            >
-              Lorem Khaled Ipsum is a major key to success.
-              <br class="hidden sm:block" />
-              You see the hedges, how I get it shaped up.
-            </h1>
-            <p
-              class="text-white/70 absolute top-60 left-7 md:top-44 md:left-24 lg:top-64 lg:left-32 xl:left-44 tracking-[0.02438rem] leading-normal font-normal text-[0.8125rem]"
-            >
-              Jane Doe | 30.11.2023
-            </p>
-          </div>
-        </div>
-        <div class="">
-          <div
-            class="md:w-[32px] w-[24px] top-[17.5rem] left-7 md:top-40 md:left-[2rem] lg:top-60 absolute lg:left-[4.5rem] xl:left-[6.5rem] mac:left-28 md:h-[32px] bg-[#CBC5C5]/30 flex justify-center items-center rounded-full"
-          >
-            <svg
-              class="md:w-6 w-4 h-4 md:h-6 text-white dark:text-white"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m15 19-7-7 7-7"
+        <div class="carousel-container">
+          <div class="carousel-content" id="carouselContent">
+            <div class="carousel-item">
+              <img
+                src="./img/Group.png"
+                alt=""
+                class="w-full h-[500px] md:h-[25.375rem] object-cover lg:h-[31.75rem]"
               />
-            </svg>
-          </div>
-          <div
-            class="md:w-[32px] w-[24px] top-[17.5rem] h-[24px] right-7 md:top-40 md:right-20 lg:top-60 absolute lg:right-28 xl:right-28 mac:right-40 md:h-[32px] bg-[#CBC5C5]/30 flex justify-center items-center rounded-full"
-          >
-            <svg
-              class="md:w-6 w-4 h-4 md:h-6 text-white dark:text-white"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m9 5 7 7-7 7"
-              />
-            </svg>
-          </div>
-        </div>
+              <div
+                class="xl:max-w-screen-xl w-[21rem] md:w-[40rem] lg:w-[56rem] xl:w-[71rem] mx-auto"
+              >
+                <button
+                  class="text-white absolute top-10 left-7 md:top-12 lg:top-20 md:left-24 lg:left-32 xl:left-44 bg-[#CB94C7] rounded-md px-3 py-[2px] text-xs md:px-5 md:py-1 md:text-[0.875rem] font-medium leading-[2.5rem] tracking-[0.02625rem]"
+                >
+                  Popular
+                </button>
+                <h1
+                  class="text-white text-[1.5rem] px-4 sm:px-0 pro:text-[1.3rem] leading-[1.89363rem] md:leading-normal absolute top-28 left-4 lg:top-40 md:top-28 md:left-24 xl:left-44 md:text-[1.15rem] lg:left-32 font-semibold lg:text-[2rem] lg:leading-[2.5rem] xl:leading-[2.8rem] xl:text-[2.2rem] mac:text-[2.5rem]"
+                >
+                  Lorem Khaled Ipsum is a major key to success.
+                  <br class="hidden sm:block" />
+                  You see the hedges, how I get it shaped up.
+                </h1>
+                <p
+                  class="text-white/70 absolute top-60 left-7 md:top-44 md:left-24 lg:top-64 lg:left-32 xl:left-44 tracking-[0.02438rem] leading-normal font-normal text-[0.8125rem]"
+                >
+                  Jane Doe | 30.11.2023
+                </p>
+              </div>
+            </div>
 
+            <!-- second slide -->
+
+            <div class="carousel-item relative">
+              <img
+                src="./img/Header1.png"
+                alt=""
+                class="object-cover w-full h-[500px] md:h-[25.375rem] lg:h-[31.75rem]"
+              />
+              <div
+                class="xl:max-w-screen-xl w-[21rem] md:w-[40rem] lg:w-[56rem] xl:w-[71rem] mx-auto"
+              >
+                <button
+                  class="text-white absolute top-10 left-7 md:top-12 lg:top-20 md:left-24 lg:left-32 xl:left-44 bg-[#CB94C7] rounded-md px-3 py-[2px] text-xs md:px-5 md:py-1 md:text-[0.875rem] font-medium leading-[2.5rem] tracking-[0.02625rem]"
+                >
+                  Popular
+                </button>
+                <h1
+                  class="text-white text-[1.5rem] px-4 sm:px-0 pro:text-[1.3rem] leading-[1.89363rem] md:leading-normal absolute top-28 left-4 lg:top-40 md:top-28 md:left-24 xl:left-44 md:text-[1.15rem] lg:left-32 font-semibold lg:text-[2rem] lg:leading-[2.5rem] xl:leading-[2.8rem] xl:text-[2.2rem] mac:text-[2.5rem]"
+                >
+                  Lorem Khaled Ipsum is a major key to success.
+                  <br class="hidden sm:block" />
+                  You see the hedges, how I get it shaped up.
+                </h1>
+                <p
+                  class="text-white/70 absolute top-60 left-7 md:top-44 md:left-24 lg:top-64 lg:left-32 xl:left-44 tracking-[0.02438rem] leading-normal font-normal text-[0.8125rem]"
+                >
+                  Jane Doe | 30.11.2023
+                </p>
+              </div>
+            </div>
+
+            <!-- third slide -->
+            <div class="carousel-item relative">
+              <img
+                src="./img/Group.png"
+                alt=""
+                class="object-cover w-full h-[500px] md:h-[25.375rem] lg:h-[31.75rem]"
+              />
+              <div
+                class="xl:max-w-screen-xl w-[21rem] md:w-[40rem] lg:w-[56rem] xl:w-[71rem] mx-auto"
+              >
+                <button
+                  class="text-white absolute top-10 left-7 md:top-12 lg:top-20 md:left-24 lg:left-32 xl:left-44 bg-[#CB94C7] rounded-md px-3 py-[2px] text-xs md:px-5 md:py-1 md:text-[0.875rem] font-medium leading-[2.5rem] tracking-[0.02625rem]"
+                >
+                  Popular
+                </button>
+                <h1
+                  class="text-white text-[1.5rem] px-4 sm:px-0 pro:text-[1.3rem] leading-[1.89363rem] md:leading-normal absolute top-28 left-4 lg:top-40 md:top-28 md:left-24 xl:left-44 md:text-[1.15rem] lg:left-32 font-semibold lg:text-[2rem] lg:leading-[2.5rem] xl:leading-[2.8rem] xl:text-[2.2rem] mac:text-[2.5rem]"
+                >
+                  Lorem Khaled Ipsum is a major key to success.
+                  <br class="hidden sm:block" />
+                  You see the hedges, how I get it shaped up.
+                </h1>
+                <p
+                  class="text-white/70 absolute top-60 left-7 md:top-44 md:left-24 lg:top-64 lg:left-32 xl:left-44 tracking-[0.02438rem] leading-normal font-normal text-[0.8125rem]"
+                >
+                  Jane Doe | 30.11.2023
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel -->
+          <div class="">
+            <div
+              class="md:w-[32px] w-[24px] h-[24px] top-[17.5rem] left-7 md:top-40 md:left-[2rem] lg:top-60 absolute lg:left-[4.5rem] xl:left-[6.5rem] mac:left-28 md:h-[32px] bg-[#CBC5C5]/30 flex justify-center items-center rounded-full"
+              onclick="prevSlide()"
+            >
+              <svg
+                class="md:w-6 w-4 h-4 md:h-6 text-white dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m15 19-7-7 7-7"
+                />
+              </svg>
+            </div>
+            <div
+              class="md:w-[32px] w-[24px] top-[17.5rem] h-[24px] right-7 md:top-40 md:right-20 lg:top-60 absolute lg:right-28 xl:right-28 mac:right-40 md:h-[32px] bg-[#CBC5C5]/30 flex justify-center items-center rounded-full"
+              onclick="nextSlide()"
+            >
+              <svg
+                class="md:w-6 w-4 h-4 md:h-6 text-white dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m9 5 7 7-7 7"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- input field -->
         <div
           class="flex absolute top-[23rem] left-7 md:top-56 md:left-24 xl:top-80 lg:top-72 lg:left-32 xl:left-44"
         >
@@ -402,7 +471,7 @@
             class="xl:max-w-screen-xl sm:space-y-0 md:w-[40rem] lg:w-[56rem] xl:w-[71rem] mx-auto flex flex-col sm:flex-row sm:justify-between"
           >
             <h3
-              class="text-[#982A90] pt-[0.5rem] px-9 md:pt-0 flex justify-between text-[18px] sm:flex-0 md:text-xs lg:text-[1.25rem] font-medium leading-normal tracking-[0.0375rem] md:pb-7 lg:pb-9 pb-0 border-0 sm:border-b-4 sm:border-[#982A90]"
+              class="text-[#982A90] pt-[0.5rem] px-9 sm:px-0 md:pt-0 flex justify-between text-[18px] sm:flex-0 md:text-xs lg:text-[1.25rem] font-medium leading-normal tracking-[0.0375rem] md:pb-7 lg:pb-9 pb-0 border-0 sm:border-b-4 sm:border-[#982A90]"
             >
               Latest
               <svg
