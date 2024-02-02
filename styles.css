@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .footers {
-  @apply grid px-5 xl:px-36 2xl:px-72  pt-20 relative;
+  @apply grid px-5 lg:px-11 xl:px-36 mac:px-40 2xl:px-72  pt-20 relative;
 }
 
 .footer-content {
