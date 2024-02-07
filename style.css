@@ -16,3 +16,35 @@ body {
   min-width: 100%;
   box-sizing: border-box;
 }
+.card-dropdown {
+  /* position: relative; */
+  z-index: -10;
+}
+.slider-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.slider-dot {
+  width: 9.77px;
+  height: 9.77px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.slider-dot.active {
+  background-color: white;
+  width: 37.47px;
+  height: 9.77px;
+  border-radius: 114.4px;
+}
+.slider {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
