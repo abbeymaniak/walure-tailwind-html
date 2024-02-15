@@ -12,14 +12,17 @@ body {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
+
 .carousel-item {
   min-width: 100%;
   box-sizing: border-box;
 }
+
 .card-dropdown {
   /* position: relative; */
   z-index: -10;
 }
+
 .slider-container {
   display: flex;
   justify-content: center;
@@ -42,9 +45,17 @@ body {
   height: 9.77px;
   border-radius: 114.4px;
 }
+
 .slider {
   position: absolute;
   top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.dropdown-position {
+  position: absolute;
+  z-index: 10;
+  left: 95px;
+  top: 21px;
 }

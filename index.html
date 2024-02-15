@@ -46,7 +46,7 @@
 
               <!-- Dropdown menu -->
               <div id="dropdownHover"
-                class="hidden bg-white divide-y divide-gray-100 rounded-lg mt-5 shadow w-full lg:w-44 dark:bg-gray-700">
+                class="hidden dropdown-position bg-white divide-y divide-gray-100 rounded-lg mt-5 shadow w-full lg:w-44 dark:bg-gray-700">
                 <ul class="py-2 text-sm" aria-labelledby="dropdownHoverButton">
                   <li>
                     <a href="./our-courses.html" class="block px-4 py-2 hover:bg-walure-purple hover:bg-opacity-10">
@@ -176,8 +176,41 @@
             </div>
           </div>
         </div>
-      </div>
     </nav>
+    <div id="dropdownHover"
+      class="hidden bg-white divide-y absolute top-10 lg:left-[32rem] xl:left-[43.5rem] mac:left-[53rem] z-30 divide-gray-100 rounded-lg mt-5 shadow w-full lg:w-44 dark:bg-gray-700">
+      <ul class="py-2 text-sm" aria-labelledby="dropdownHoverButton">
+        <li>
+          <a href="./our-courses.html" class="block px-4 py-2 hover:bg-walure-purple hover:bg-opacity-10">
+            Academy
+          </a>
+        </li>
+        <li>
+          <a href="./get-talents.html" class="block px-4 py-2 hover:bg-walure-purple hover:bg-opacity-10">
+            Outsourcing
+          </a>
+        </li>
+        <li>
+          <a href="./get-our-expertise.html" class="block px-4 py-2 hover:bg-walure-purple hover:bg-opacity-10">
+            Consulting
+          </a>
+        </li>
+        <li>
+          <a href="./our-media-services.html" class="block px-4 py-2 hover:bg-walure-purple hover:bg-opacity-10">
+            Media
+          </a>
+        </li>
+        <li>
+          <a href="./our-workspaces.html"
+            class="block px-4 py-2 hover:bg-walure-purple hover:bg-opacity-10 dropdown-active">
+            Workspace
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+
 
     <header class="relative h-full">
       <div class="carousel-container">
@@ -272,7 +305,7 @@
       <!-- input field -->
       <div class="flex absolute top-[22rem] left-7 md:top-56 md:left-24 xl:top-80 lg:top-72 lg:left-32 xl:left-44">
         <input type="text"
-          class="lg:w-[35rem] md:w-[28rem] w-[17rem] h-[3rem] bg-[#F2F2F2] rounded-tl-md rounded-bl-md pl-5"
+          class="lg:w-[35rem] md:w-[28rem] w-[17rem] h-[3rem] bg-[#F2F2F2] rounded-tl-md rounded-bl-md pl-5 outline-none"
           placeholder="Type a keyword" />
         <div class="bg-[#982A90] w-[3.625rem] h-[3rem] rounded-br-md flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="">

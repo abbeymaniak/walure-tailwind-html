@@ -12,6 +12,28 @@ cancelMenu.addEventListener("click", () => {
   menuItem.classList.add("hidden");
 });
 
+//services-dropdown
+document.addEventListener("DOMContentLoaded", function () {
+  const dropdownButton = document.getElementById("dropdownHoverButton");
+  const dropdownMenu = document.getElementById("dropdownHover");
+
+  dropdownButton.addEventListener("mouseenter", function () {
+    dropdownMenu.classList.remove("hidden");
+  });
+
+  dropdownButton.addEventListener("mouseleave", function () {
+    dropdownMenu.classList.add("hidden");
+  });
+
+  dropdownMenu.addEventListener("mouseenter", function () {
+    dropdownMenu.classList.remove("hidden");
+  });
+
+  dropdownMenu.addEventListener("mouseleave", function () {
+    dropdownMenu.classList.add("hidden");
+  });
+});
+
 //dropdown
 // document.addEventListener("DOMContentLoaded", function () {
 //   const dropdownToggle = document.getElementById("dropdownToggle");
