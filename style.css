@@ -63,3 +63,7 @@ body {
 .blog-color:hover {
   color: #982A90;
 }
+
+q::after {
+  display: none;
+}
