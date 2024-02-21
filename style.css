@@ -59,3 +59,7 @@ body {
   left: 95px;
   top: 21px;
 }
+
+.blog-color:hover {
+  color: #982A90;
+}
