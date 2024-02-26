@@ -67,3 +67,23 @@ body {
 q::after {
   display: none;
 }
+
+/* .walure-ml {
+  margin-left: 166px;
+} */
+
+@media screen and (max-width: 1440px) {
+  .walure-ml {
+    margin-left: 166px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .walure-ml {
+    margin-left: 100px;
+  }
+}
+
+.walure-text {
+  text-align: left;
+}
