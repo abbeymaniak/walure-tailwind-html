@@ -82,8 +82,14 @@ q::after {
   .walure-ml {
     margin-left: 100px;
   }
-}
 
-.walure-text {
-  text-align: left;
-}
+  @media screen and (max-width: 320px) {
+    .walure-ml {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+
+  .walure-text {
+    text-align: left;
+  }
