@@ -57,8 +57,15 @@ body {
   position: absolute;
   z-index: 10;
   left: 95px;
-  top: 21px;
+  /* top: 21px; */
+  top: -1px;
 }
+
+.dropdown-position:hover,
+.dropdown-position:focus {
+  display: block;
+}
+
 
 .blog-color:hover {
   color: #982A90;
@@ -72,9 +79,19 @@ q::after {
   margin-left: 166px;
 } */
 
+.walure-footer {
+  display: none;
+}
+
 @media screen and (max-width: 1440px) {
   .walure-ml {
     margin-left: 166px;
+  }
+
+  .walure-tag {
+    margin-left: 116px;
+    margin-top: 107px;
+
   }
 }
 
@@ -83,13 +100,51 @@ q::after {
     margin-left: 100px;
   }
 
-  @media screen and (max-width: 320px) {
-    .walure-ml {
-      margin-left: 15px;
-      margin-right: 15px;
-    }
+  .walure-tag {
+    margin-left: 50px;
+    margin-top: 107px;
+    font-size: 2rem;
+
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .walure-ml {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
-  .walure-text {
-    text-align: left;
+  .walure-tag {
+    margin-left: 20px;
+    margin-top: 107px;
+    font-size: 12px !important;
+
+
   }
+
+  .walure-tag p {
+    font-size: 11px;
+  }
+
+  .sitemap-web,
+  .contact-web {
+    display: none;
+  }
+
+  .walure-footer {
+    display: flex;
+    gap: 10px;
+
+  }
+}
+
+/* .walure-tag {
+    margin-left: 150px;
+    margin-top: 107px;
+
+  } */
+
+.walure-text {
+  text-align: left;
+}
