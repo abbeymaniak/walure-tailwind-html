@@ -93,6 +93,13 @@ q::after {
     margin-top: 107px;
 
   }
+
+  .set-carousel {
+    top: 285px;
+    left: 173px;
+
+
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -107,6 +114,29 @@ q::after {
 
 
   }
+
+  .set-carousel {
+    top: 285px;
+    left: 130px;
+
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .set-carousel {
+    top: 285px;
+    left: 99px;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .set-carousel {
+    top: 285px;
+    left: 33px;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -137,6 +167,14 @@ q::after {
     gap: 10px;
 
   }
+
+  .set-carousel {
+    top: 285px;
+    left: 30px;
+
+
+
+  }
 }
 
 /* .walure-tag {
@@ -154,4 +192,12 @@ q::after {
   .walure-bigscreen {
     padding-left: 170px;
   }
+}
+
+
+.set-carousel {
+  top: 285px;
+  left: 173px;
+
+
 }
